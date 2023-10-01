@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Imagen/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.login .login-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 20px 0 0;
+    color: #fff;
+}
+
+.login-box input {
+    width: 98%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.login-box input::placeholder {
+    color: #fff;
+}
+
+.login-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.recordarme {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.recordarme label input {
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.recordarme a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.recordarme a:hover {
+    text-decoration: underline;
+}
+.aceptar input {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 20px 0;
+
+}
+
+
+/*
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./Imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 420px;
+    color: white;
+    padding: 30px 40px;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.login .login-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    margin: 20px 20px 0 0;
+}
+
+.login-box input {
+    width: 98%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+}
+
+.aceptar input {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    margin: 20px 0;
+
+}
+*/
